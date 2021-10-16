@@ -1,0 +1,25 @@
+{
+  "manifestVersion": "2.2",
+  "contracts": {
+    "EasyStaking": "EasyStaking"
+  },
+  "dependencies": {},
+  "name": "easy-staking-contracts",
+  "version": "1.0.0",
+  "compiler": {
+    "compilerSettings": {
+      "optimizer": {
+        "enabled": true,
+        "runs": "200"
+      }
+    },
+    "typechain": {
+      "enabled": false
+    },
+    "manager": "openzeppelin",
+    "solcVersion": "0.5.16",
+    "artifactsDir": "build/contracts",
+    "contractsDir": "contracts"
+  },
+  "telemetryOptIn": false
+}
